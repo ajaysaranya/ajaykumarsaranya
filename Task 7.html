@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input types</title>
+    <link rel="stylesheet" href="Task 7.css">
+  </head>
+  <body>
+      <h1>Registration Form</h1>
+    <h2>Contact Info</h2>
+      <lable for="name"> Name</lable>
+      <input
+        type="text"
+        id="name"
+        name=" name"
+        placeholder="Enter Your First Name"
+      />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter Your Last Name"
+      /><br /><br />
+      <lable for="email">Email Id</lable>
+      <input
+        type="text"
+        id="text"
+        name="email"
+        placeholder="Enter Your Email"
+      /><br /><br />
+      <label for="dob">Date Of Birth</label>
+      <input type="date" id="dob" name="dob" />
+      <br /><br />
+      <label for="mobile no">Mobile No</label>
+      <input type="number" id="number" placeholder="Enter First Mobile No" />
+      <input type="number" id="number" placeholder="Enter Second Mobile No" />
+      <br /><br />
+      <lable for="password">password</lable>
+      <input type="password" id="password" placeholder="Enter Your password" />
+      <br /><br />
+      <label for="company">Company</label>
+      <input type="text" id="text" placeholder="Enter Your Company" />
+      <br /><br />
+      <label for="address">Address</label>
+      <input type="text" id="text" placeholder="Enter Your Address" />
+      <br /><br />
+      <label for="city">City</label>
+      <input type="text" id="text" placeholder="Enter Your City" />
+      <br /><br />
+      <h2>Boat Info</h2>
+      <label>Gender :</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="Male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="Female">Female</label>
+      <br /><br />
+      <label>Skills :</label>
+      <input type="checkbox" id="html" name="skills" value="html" />
+      <label for="html">Html</label>
+      <input type="checkbox" id="css" name="skills" value="css" />
+      <label for="css">Css</label>
+      <input
+        type="checkbox"
+        id="java script"
+        name="skills"
+        value="java script"
+      />
+      <label for="java script">Java Script</label>
+      <input type="checkbox" id="angular" name="skills" value="angular" />
+      <label for="angular">Angular</label>
+      <br><br>
+      <label for="model">Model</label>
+      <input type="text" id="text" placeholder="Enter Your Model">
+      <br><br>
+      <label for="range">Your Range</label>
+      <input type="text" id="text">
+      <label for="to">To</label>
+      <input type="text" id="text">
+      <br><br>
+      <label for="length">BoatLength</label>
+      <input type="text" id="text">
+      <label for="to">To</label>
+      <input type="text" id="text">
+      <br><br>
+      <label for="range">Price Range</label>
+      <input type="text" id="text" placeholder="$">
+      <label for="to">To</label>
+      <input type="text" id="text" placeholder="$">
+      <br><br>
+      <label for="link">Website Link</label>
+      <input type="text" id="text" placeholder="Enter Your Website">
+      <br><br>
+      <tr>
+      </section>
+        <th>Boat</th>
+        <td>
+          <select name="Boat">
+          <option value="" selected="selected" disable="disable">
+            Select Boat Type
+          </option>
+          <option value="1">10</option>
+          <option value="2">20</option>
+          <option value="3">30</option>
+          <option value="4">40</option></td>
+        </select>
+        </td>
+      </tr>
+      <br><br>
+      <tr>
+        <th>Country</th>
+        <td>
+          <select name="Country">
+            <option value="" selected="selected" disable="disable">
+              United State
+            </option>
+            <option value="kansas"></option>
+            <option value="lowa"></option>
+            <option value="texas"></option>
+            <option value="utah"></option></td>
+          </select>
+        </td>
+      </tr>
+      <br><br>
+      <tr>
+        <th>Description</th>
+        <td>
+          <textarea
+          rows="3"
+          cols="15"
+          placeholder="Enter text"
+          ></textarea>
+        </td>
+      </tr>
+      <br><br>
+      <tr>
+        <th>Upload Your Profile Page</th>
+        <td><input type="file"></td>
+      </tr>
+      <br><br>
+      <input type="submit" value="Register">
+    
+    </form>
+  </body>
+</html>
