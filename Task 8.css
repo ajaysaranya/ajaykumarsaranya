@@ -1,0 +1,54 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: rgb(52, 132, 186);
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: black;
+  color: white;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header h1 {
+  margin: 0;
+}
+nav a {
+  color: green;
+  margin-left: 20px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  padding: 20px;
+}
+section {
+  background: orange;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+article {
+  background-color: blue;
+  border-bottom: 1px solid rgb(220, 223, 255);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+aside {
+  background: rgb(222, 222, 16);
+  padding: 15px;
+  border-left: 5px solid rgb(209, 209, 20);
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+footer {
+  background: rgb(20, 5, 5);
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
