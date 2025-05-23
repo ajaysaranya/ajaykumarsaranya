@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: green;
+}
+.example {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-left: 5px solid red;
+  max-width: 700px;
+  border-radius: 8px;
+  min-width: 300px;
+}
+#bg-color {
+  background-color: blueviolet;
+  color: white;
+}
+#bg-image {
+  background-image: url(image/image.jfif);
+  background-color: white;
+}
+#bg-repeat {
+  background-image: url(image/image.jfif);
+  background-repeat: no-repeat;
+  background-size: 250px;
+}
+#bg-size {
+  background-image: url(image/image.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#bg-position {
+  background-image: url(image/image.jfif);
+  border-radius: no-repeat;
+  background-position: center;
+}
+#bg-attachment {
+  background-image: url(image/image.jfif);
+  background-size: contain;
+  background-repeat: initial;
+  background-attachment: local;
+  color: white;
+}
