@@ -1,0 +1,23 @@
+.box {
+  background-color::yellow
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: blue;
+}
+.Specail {
+  background-color: aqua;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: brown;
+}
+section {
+    background: green;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+h2 {
+  color: black;
+  background-color: orange;
+}
