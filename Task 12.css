@@ -1,0 +1,54 @@
+body {
+  background-image: url(image/image.jfif);
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: azure;
+  padding: 100px;
+}
+h1 {
+  text-align: center;
+  color: green;
+}
+.example {
+  background-color: white;
+  padding: 15px;
+  margin: 15px auto;
+  max-width: 700px;
+  border-left: 7px solid blue;
+  border-radius: 7px;
+  min-width: 300px;
+}
+.color {
+  color: red;
+}
+
+.center {
+  text-align: center;
+}
+.underline {
+  text-decoration: underline;
+}
+.no-underline {
+  text-decoration: none;
+}
+.line {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-color: red;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.spaced {
+  letter-spacing: 5px;
+  word-spacing: 15px;
+}
+.lined {
+  line-height: 3;
+}
+.indented {
+  text-indent: 80px;
+}
