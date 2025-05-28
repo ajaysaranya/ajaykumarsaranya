@@ -1,0 +1,44 @@
+body {
+  background-image: url(image/dragon.jpeg);
+  background-size: cover;
+  font-family: "Courier New", Courier, monospace;
+  background-color: aqua;
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  color: blue;
+  margin-bottom: 30px;
+}
+.box {
+  background-color: azure;
+  width: 300px;
+  margin: 20px auto;
+  text-align: left;
+  border-radius: 8px;
+  border-left: 5px solid purple;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.content-box {
+  background-image: url(image/butterfly.jpeg);
+  background-size: cover;
+  /* no padding ,no boading ,no margin to the box */
+}
+.padding-box {
+  background-image: url(image/birds.jpeg);
+  background-size: cover;
+  padding: 20px;
+}
+.boader-box {
+  background-image: url(image/eagle.jpeg);
+  background-size: cover;
+  padding: 20px;
+  border: 6px solidb green;
+}
+.margin-box {
+  background-image: url(image/horse.jpeg);
+  background-size: cover;
+  margin: 40px;
+  padding: 20px;
+  border: 5px dashed red;
+}
