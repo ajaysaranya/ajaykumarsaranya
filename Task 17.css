@@ -1,0 +1,50 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  padding: 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 30px;
+}
+.box {
+  width: 200px;
+  height: 300px;
+  margin: 20px auto;
+  padding: 2px solid;
+  border: skyblue;
+}
+.visible {
+  overflow: visible;
+}
+.hidden {
+  overflow: hidden;
+}
+.scroll {
+  overflow: scroll;
+}
+.auto {
+  overflow: auto;
+}
+h1 {
+  text-align: left;
+}
+.container {
+  width: 500px;
+  margin: 0;
+  background: #f4f4f4;
+  padding: 2px;
+  border: 2px solid #999;
+  border-radius: 10px;
+}
+.float-left {
+  float: left;
+  margin: 0 20px 20px 0;
+  border: 2px solid #999;
+  border-radius: 10px;
+}
+.clearfix::after {
+  content: ;
+  display: table;
+  clear: both;
+}
