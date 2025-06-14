@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        align-items: stretch;
+      }
+      h3 {
+        color: red;
+      }
+      .grid > article {
+        border: 1px solid #f4f4f4;
+        box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.7);
+      }
+      .grid > article img {
+        max-width: 200px;
+      }
+      .text > button {
+        background: skyblue;
+        border: 0;
+        color: white;
+        padding: 10px;
+        width: 100%;
+      }
+      .text {
+        padding: 0 20px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="grid">
+      <article>
+        <img
+          src="image/dragon.jpeg"
+          alt="sample image"
+          width="300"
+          height="300"
+        />
+        <div class="text">
+          <h3>Dragon</h3>
+          <p>
+            A dragon is a magical legendary creature that appears in the
+            folklore of multiple cultures worldwide. Beliefs about dragons vary
+            considerably through regions, but dragons in Western cultures since
+            the High Middle Ages have often been depicted as winged, horned, and
+            capable of breathing fire. Dragons in eastern cultures are usually
+            depicted as wingless,.
+          </p>
+          <button>click me</button>
+        </div>
+      </article>
+
+      <article>
+        <img
+          src="image/horse.jpeg"
+          alt="sample image"
+          width="300"
+          height="300"
+        />
+        <div class="text">
+          <h3>Horse</h3>
+          <p>
+            The horse (Equus ferus caballus)[2][5] is a domesticated, one-toed,
+            hoofed mammal. It belongs to the taxonomic family Equidae and is one
+            of two extant subspecies of Equus ferus. The horse has evolved over
+            the past 45 to 55 million years from a small multi-toed creature,
+            Eohippus, into the large, single-around 4000 BCE in Central Asia,
+          </p>
+          <button>click me</button>
+        </div>
+      </article>
+
+      <article>
+        <img
+          src="image/eagle.jpeg"
+          alt="sample image"
+          width="300"
+          height="300"
+        />
+        <div class="text">
+          <h3>Eagle</h3>
+          <p>
+            Eagle is the common name for the golden eagle, bald eagle, and other
+            birds of prey in the family of the Accipitridae. Eagles belong to
+            several groups of genera, some of which are closely related. True
+            eagles comprise the genus Aquila. Most of the 68 species of eagles
+            are from Eurasia and Africa.[1] Outside thAmerica, and three in
+            Australia.
+          </p>
+          <button>click me</button>
+        </div>
+      </article>
+      <article>
+        <img
+          src="image/butterfly.jpeg"
+          alt="sample image"
+          width="300"
+          height="300"
+        />
+        <div class="text">
+          <h3>Butterfly</h3>
+          <p>
+            Butterflies have a four-stage life cycle, and like other
+            holometabolous insects they undergo complete metamorphosis.[2]
+            Winged adults lay eggs on the food plant on which their larvae,
+            known as caterpillars, will feed. The caterpillars grow, sometimes
+            very rapidly, and when fully developed, pupate in a chrysalis.
+            single generation, through their entire life cycle
+          </p>
+          <button>click me</button>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
