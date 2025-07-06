@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project Assignment</title>
+    <link rel="stylesheet" href="Final Project.css" />
+
+    <style>
+      body {
+        font-family: Roboto, sans-serif;
+      }
+
+      #chart {
+        width: 1000px;
+        height: 600px;
+        margin: 35px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dashboard</h1>
+    <div class="flex-container">
+      <div class="container clearfix">
+        <br /><br />
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/2529/2529396.png"
+          loading="lazy"
+          alt="Coin "
+          title="Coin "
+          width="100"
+          height="100"
+        />
+        <div class="float-left">
+          <h3>TODAY SALES</h3>
+          <h1>$54,375</h1>
+          <p>274 order total</p>
+        </div>
+      </div>
+      <div class="container clearfix">
+        <br /><br />
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/9581/9581121.png"
+          loading="lazy"
+          alt="User "
+          title="User "
+          width="100"
+          height="100"
+        />
+        <div class="float-left">
+          <h3>ACTIVE USERS</h3>
+          <h1>48,478</h1>
+          <p>790 unique this month</p>
+        </div>
+      </div>
+      <div class="container clearfix">
+        <br /><br />
+        <img
+          class="lazyload lazyload--done"
+          alt="2555188229"
+          src="https://image.shutterstock.com/image-vector/downward-icondownload-icon-trendy-flat-260nw-2555188229.jpg"
+          width="100"
+          height="100"
+        />
+        <div class="float-left">
+          <h3>DOWNLOADS</h3>
+          <h1>374,840</h1>
+          <p>97 items downloaded</p>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <div class="flex-container">
+      <div class="demo">
+        <h2>Active Task</h2>
+        <h4>showing 3 out of 23 active tasks</h4>
+        <img
+          itemprop="contentUrl"
+          src="https://www.svgrepo.com/show/530225/cell-phone.svg"
+          alt="Cell Phone SVG File"
+          title="Cell Phone SVG File"
+          width="100"
+          height="100"
+        />
+        <div class="vivo">
+          <h3>Mobile Model</h3>
+          <p>All mobile coming soon</p>
+        </div>
+        <br /><br />
+        <img
+          itemprop="contentUrl"
+          src="https://www.svgrepo.com/show/530226/camera.svg"
+          alt="Camera SVG File"
+          title="Camera SVG File"
+          width="100"
+          height="100"
+        />
+        <div class="vivo">
+          <h3>Camara Color</h3>
+          <p>All camara available</p>
+        </div>
+        <br /><br />
+        <img
+          itemprop="contentUrl"
+          src="https://www.svgrepo.com/show/530228/sim-card.svg"
+          alt="Sim Card SVG File"
+          title="Sim Card SVG File"
+          width="100"
+          height="100"
+        />
+        <div class="vivo">
+          <h3>Sim Card</h3>
+          <p>All sim card available</p>
+        </div>
+      </div>
+      <div class="demo">
+        <h2>Todo</h2>
+        <h4>showing 5 out of 23 active tasks</h4>
+        <input type="checkbox" name="text" />Dashboard UI optimisation
+        <br />
+        Oskar Hudson
+        <br /><br />
+        <input type="checkbox" name="" />Mailbox Cleanup
+        <br />
+        woodrow Hawkins
+        <br /><br />
+        <input type="checkbox" name="" />Header scroll bugfix
+        <br />
+        Sky Mayers
+        <br /><br />
+        <input type="checkbox" name="" />Localization for file manager
+        <br />
+        Oskar Hudson
+        <br /><br />
+        <input type="checkbox" name="" />New E-commerce UI\UX design
+        <br />
+        Oskar Hudson
+      </div>
+      <div class="demo">
+        <h2>In Program skills</h2>
+        <h4>showing 4 out of 7 in program tasks</h4>
+        <li><h3>html</h3>
+          <span class="bar"><span class="html"/span>
+        </li>
+        <li><h3>css</h3>
+          <span class="bar"><span class="css"/span>
+        </li>
+        <li><h3>javascript</h3>
+          <span class="bar"><span class="javascript"/span>
+        </li>
+        <li><h3>python</h3>
+          <span class="bar"><span class="python"/span>
+        </li>
+      </div>
+    </div>
+    <div id="chart"></div>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <script>
+      var options = {
+        chart: {
+          type: "bar",
+        },
+        series: [
+          {
+            name: "sales",
+            data: [30, 40, 45, 50, 49, 60, 70, 91, 125],
+          },
+        ],
+        xaxis: {
+          categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999],
+        },
+      };
+
+      var chart = new ApexCharts(document.querySelector("#chart"), options);
+
+      chart.render();
+    </script>
+
+    <div class="flex-container">
+      <div class="container clearfix">
+        <img
+          style=""
+          data-image-id="Wo2fxhUTwDhv"
+          srcset="
+            https://img.icons8.com/?size=48&amp;id=Wo2fxhUTwDhv&amp;format=png 1x,
+            https://img.icons8.com/?size=96&amp;id=Wo2fxhUTwDhv&amp;format=png 2x
+          "
+          width="60"
+          height="60"
+          alt="Task icon"
+          data-v-9cae9687=""
+        />
+        <div class="float-right">
+        <h3>TASKS COMPLETED</h3>
+        <h1>21,492</h1>
+      </div>
+    </div>
+      <div class="container clearfix">
+        <img
+          data-v-9cae9687=""
+          data-image-id="44053"
+          srcset="
+            https://img.icons8.com/?size=64&amp;id=44053&amp;format=png  1x,
+            https://img.icons8.com/?size=128&amp;id=44053&amp;format=png 2x
+          "
+          width="64"
+          height="64"
+          alt="Star icon"
+          class="loaded"
+        />
+        <div class="float-right">
+          <h3>ENGAGEMENT</h3>
+          <h1>67,661</h1>
+        </div>
+      </div>
+      <div class="container clearfix">
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/6421/6421328.png"
+          loading="lazy"
+          alt="Wallet "
+          title="Wallet "
+          width="64"
+          height="64"
+        />
+        <div class="float-right">
+          <h3>BALANCE</h3>
+          <h1>$861,250</h1>
+        </div>
+      </div>
+      </div>
+    </div>
+    <br><br>
+
+    <div class="flex-container">
+      <div class="oppo">
+        <h3>Quisque congue risus sit amet pellentesque fermentum</h3>
+        <p>If you’ve ever used a layout program, you may be familiar with lorem ipsum, the block of dummy text traditionally
+           used in page mock-ups to demonstrate how the finished product will look. The text looks vaguely Latin, and usually 
+           begins with the phrase </p>
+           <br><br>
+           <button class="btn-base btn-dark">Read more</button>
+      </div>
+      <div class="oppo">
+        <h3>Connection Request</h3>
+        <img id="dimg_NoJmaO7nAZq10-kP8p_DQA_347" src="data:image/jpeg;base64,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" class="YQ4gaf" height="130" style="object-position:46% 71%" width="130" l alt="636 Boost People Logo Stock Vectors and ..." data-csiid="NoJmaO7nAZq10-kP8p_DQA_25" data-atf="1">
+        <div class="float-left">
+          <h3>Woodrow Hawkins</h3>
+          <p>45 mutual connections</p>
+          <p>Senior Go Developer at Goodle</p>
+        </div>
+      <br><br>
+        <button class="btn-color">Accept</button>
+      
+        <div class="float-right">
+        <button class="btn-light">Ignore</button>
+      
+      </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
